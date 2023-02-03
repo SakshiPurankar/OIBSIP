@@ -1,0 +1,37 @@
+#comtainer{
+    border: none;
+
+}
+.parent{
+    position:relative;
+}
+.image1{
+    position: relative;
+}
+.image2{
+    position: absolute;
+    bottom:70px;
+    right:30px;
+}
+#imgfield{
+    border: none;
+}
+#skillsfield{
+    border: none;
+}
+#bnrimg{
+    width: 700px;
+    height: 450px;
+    align-items: first baseline;
+}
+#myimg{
+    align-items: right;
+}
+#myname{
+    background-color: rgb(205, 214, 255);
+    position: relative;
+    bottom:50px;
+    left:5px;
+    color: #2e0db2;
+    font-size:x-large;
+}

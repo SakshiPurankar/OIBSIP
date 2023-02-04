@@ -1,37 +1,61 @@
-#comtainer{
-    border: none;
-
-}
-.parent{
-    position:relative;
-}
-.image1{
+.profile{
+    background-color: rgb(12, 135, 228);
+    width: full-extent;
+    height: 300px;
     position: relative;
 }
-.image2{
+#welcome{
+    font-family: comic sans MS;
+    left: 2%;
+    top: 10px;
+    color: aliceblue;
+    font-size: 100px;
+    font-variant: small-caps;
+    border-width: medium;
+    border-color: brown;
+    
+    
+  
+  
     position: absolute;
-    bottom:70px;
-    right:30px;
 }
-#imgfield{
-    border: none;
-}
-#skillsfield{
-    border: none;
-}
-#bnrimg{
-    width: 700px;
-    height: 450px;
-    align-items: first baseline;
+#name{
+    position: absolute;
+   top:200px;
+    bottom: 2px;
+    left: 40px;
+    font-size: 45px;
+    color: whitesmoke;
+    font-family:comic sans MS;
+    padding-inline: 10px;
 }
 #myimg{
-    align-items: right;
+    border-image: round;
+    border-style: solid;
+    border-image-width: inherit;
+    border-width: thick;
+    border-radius: 30px;
+    border-color: rgb(55, 236, 236);
+    position: absolute;
+    right: 10px;
+    width: 200px;
+    height: 150px;
+    bottom: 20px;
 }
-#myname{
-    background-color: rgb(205, 214, 255);
-    position: relative;
-    bottom:50px;
-    left:5px;
-    color: #2e0db2;
-    font-size:x-large;
+
+.uprintro{
+    background-color: rgb(11, 31, 160);
+    
+}
+.skills{
+    background-color: rgb(9, 20, 174);
+}
+.projects{
+    background-color: rgb(7, 27, 128);
+}
+.motive{
+    background-color: rgb(7, 21, 111);
+}
+.contact{
+    background-color: rgb(5, 23, 37);
 }

@@ -3,8 +3,10 @@
     width: full-extent;
     height: 300px;
     position: relative;
+    content: normal;
 }
 #welcome{
+    margin: 50px;
     font-family: comic sans MS;
     left: 2%;
     top: 10px;
@@ -28,6 +30,7 @@
     color: whitesmoke;
     font-family:comic sans MS;
     padding-inline: 10px;
+    font-kerning: normal;
 }
 #myimg{
     border-image: round;
@@ -38,17 +41,80 @@
     border-color: rgb(55, 236, 236);
     position: absolute;
     right: 10px;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
     bottom: 20px;
 }
 
 .uprintro{
     background-color: rgb(11, 31, 160);
+    color: aquamarine;
+    font-family: cosmic sans MS;
+    font-style: oblique;
+    padding: 10px;
+    padding-left: 20px;    
+}
+#intro{
+    font-variant: initial;
+    font-display:fallback;
+    font-feature-settings: "c2pc";
+    font-variant-ligatures: contextual;
+
+}
+.Java{
+    padding: 10px;
+    width:max-content;
+    background-color: aquamarine;
+    position: relative;
+
+}
+.Java #Javaimg{
+padding: 5px;
+    right: 10px;
+    position:absolute;
+    
+    width: 200px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+}
+.Java p{
+
     
 }
-.skills{
+.Eclipse{
+    padding: 10px;
+    width: max-content;
+    background-color: antiquewhite;
+    position: relative;
+}
+.Eclipse #eclipse{
+    float: left;
+    position:absolute;
+    left: 5px;
+    width: 200px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+}
+.Cpp{
+    padding: 10px;
     background-color: rgb(9, 20, 174);
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    font-kerning: normal;
+    position: relative;
+    height: max-content;
+}
+#cpp{ float: right;
+    flood-color: blanchedalmond;
+    
+     position: absolute;
+     width: 100px;
+     height: 80px;
+     right:30px;
+     bottom: 10px;
 }
 .projects{
     background-color: rgb(7, 27, 128);

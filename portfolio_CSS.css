@@ -63,7 +63,8 @@
 }
 .Java{
     padding: 10px;
-    width:max-content;
+    width:full-extent;
+    height:150px;
     background-color: aquamarine;
     position: relative;
 
@@ -73,26 +74,24 @@ padding: 5px;
     right: 10px;
     position:absolute;
     
-    width: 200px;
+    width: 250px;
     border-radius: 25px;
     border-style: solid;
     border-color: black;
 }
-.Java p{
 
-    
-}
 .Eclipse{
     padding: 10px;
-    width: max-content;
+    width:full-extent;
     background-color: antiquewhite;
     position: relative;
+    height:150px;
 }
 .Eclipse #eclipse{
-    float: left;
+    padding: 5px;
     position:absolute;
-    left: 5px;
-    width: 200px;
+    right: 5px;
+    width: 250px;
     border-radius: 25px;
     border-style: solid;
     border-color: black;
@@ -105,19 +104,60 @@ padding: 5px;
     font-style: italic;
     font-kerning: normal;
     position: relative;
-    height: max-content;
+    height: 150px;
+    width:full-extent;
 }
-#cpp{ float: right;
-    flood-color: blanchedalmond;
-    
-     position: absolute;
-     width: 100px;
-     height: 80px;
-     right:30px;
-     bottom: 10px;
+#cpp{ padding: 5px;
+    position:absolute;
+    right: 5px;
+    width: 250px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+}
+.C{
+    position: relative;
+    width: full-extent;
+    background-color: chocolate;
+    height: 150px;
+    padding-top: opx;
+}
+#C{
+
+    padding: 5px;
+    position:absolute;
+    right: 5px;
+    width: 250px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+
+}
+.C p{
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .projects{
+    margin-top: 0px;
     background-color: rgb(7, 27, 128);
+    font-style: oblique;
+    font-stretch: semi-expanded;
+    font-size:large ;
+    width: full-extent;
+    height: 200px;
+    position: relative;
+}
+.projects p{
+    margin-top: inherit;
+}
+#projectimg{
+    position: absolute;
+    right: 5px;
+    width: 250px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    border-radius: 20px;
 }
 .motive{
     background-color: rgb(7, 21, 111);

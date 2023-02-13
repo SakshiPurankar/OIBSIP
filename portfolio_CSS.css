@@ -149,6 +149,8 @@ padding: 5px;
 }
 .projects p{
     margin-top: inherit;
+    position: relative;
+    margin-bottom: 0%;
 }
 #projectimg{
     position: absolute;
@@ -158,10 +160,34 @@ padding: 5px;
     border-color: black;
     padding: 5px;
     border-radius: 20px;
+    bottom: 5px;
 }
-.motive{
-    background-color: rgb(7, 21, 111);
-}
+
 .contact{
+    padding-top: 0%;
+    position: relative;
     background-color: rgb(5, 23, 37);
+    width: full-extent;
+    height: 200px;
+    margin: 0px;
+}
+#contactimg{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+    width: 50px;
+    border-color: aqua;
+
+}
+main{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+body{
+
+    font-size: larger;
+    font-weight: 400;
+    font-family: comic sans MS;
+    font-stretch: expanded;
 }

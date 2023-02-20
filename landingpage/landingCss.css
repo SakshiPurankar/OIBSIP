@@ -1,0 +1,38 @@
+body{
+    background-image: url("background_image.jpg");
+    background-repeat: no-repeat;
+    width: full-extent;
+    height: 100%;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+
+}
+#navbar{
+   position: absolute;
+   nav-left: root;
+   color: aqua;
+   font-size: larger;
+   font-stretch: extra-expanded;
+   font-style: normal;
+   font-variant-caps: titling-caps;    
+}
+#name{
+    position: absolute;
+    top: 50px;
+    text-emphasis-position: top;
+    font-size: 100px;
+    left: 500px;
+    text-decoration: wavy;
+    color: azure;
+    padding-bottom: 10px;
+}
+label{
+    padding-right: 40px;
+    text-shadow: transparent;
+    text-decoration-style: solid;
+
+}
+label:hover{
+    color: rgb(227, 227, 209);
+}

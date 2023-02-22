@@ -1,5 +1,5 @@
 body{
-    background-image: url("background_image.jpg");
+    background-image: url("resort.jpeg");
     background-repeat: no-repeat;
     width: full-extent;
     height: 100%;
@@ -19,10 +19,10 @@ body{
 }
 #name{
     position: absolute;
-    top: 50px;
+    top: 70px;
     text-emphasis-position: top;
     font-size: 100px;
-    left: 500px;
+    left: 550px;
     text-decoration: wavy;
     color: azure;
     padding-bottom: 10px;
@@ -35,4 +35,84 @@ label{
 }
 label:hover{
     color: rgb(227, 227, 209);
+}
+main{
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    color: rgb(9, 45, 223);
+
+}
+p{
+    width: 600px;
+    align-content: center;
+    font-size: 30px;
+    position: absolute;
+    left: 500px;
+    top: 60px;
+    background-color: rgba(150, 100, 243, 0.514);
+    padding: 50px;
+
+}
+button{
+    position: absolute;
+    left: 600px;
+    top:300px ;
+    color: blue;
+    background-color: aquamarine;
+    border: none;
+    width: 500px;
+    height: 100px;
+}
+button:hover{
+    color: aqua;
+    background-color: rgb(55, 149, 237);
+    
+}
+footer{
+    background-color: black;
+    position: relative;
+    top : 700px;
+    bottom: 0px;
+    height: 90px;
+    width: 100%;
+    padding-left:0px ;
+    margin: 0px;
+}
+#insta{
+    position: absolute;
+    top: 5px;
+    width: 40px;
+    left: 2px;
+    border-style: solid;
+}
+
+    #insta:hover{
+        background-color: black;
+        border-color: rgb(233, 233, 241);
+        border-width: thick;
+    }
+#fb{
+    position: absolute;
+    top: 5px;
+    width: 40px;
+    left: 100px;
+    border-style: solid;
+
+}
+#fb:hover{
+    background-color: black;
+    border-color: rgb(233, 233, 241);
+    border-width: thick;
+}
+footer p{
+    height: fit-content;
+    width: fit-content;
+    padding: 2px;
+    position: absolute;
+    top: 30px;
+   background-color: black; 
+    left:5px;
+  color: aliceblue;
+  font-size: small;
 }

@@ -1,184 +1,190 @@
+#container{
+    position: relative;
+    width:1500px;
+    align-items: center;
+    background-image: url(background.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
 .profile{
-    background-color: rgb(12, 135, 228);
+    background-color: rgb(160, 191, 207);
     width: full-extent;
-    height: 300px;
+    height: 500px;
     position: relative;
     content: normal;
+   border-radius: 40px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
 }
 #welcome{
     margin: 50px;
     font-family: comic sans MS;
     left: 2%;
-    top: 10px;
-    color: aliceblue;
-    font-size: 100px;
+    top: 2px;
+    color: rgb(28, 111, 184);
+    font-size: 90px;
     font-variant: small-caps;
     border-width: medium;
-    border-color: brown;
-    
-    
-  
-  
+    border-color: rgb(132, 71, 228);
     position: absolute;
+    width: 350px;
 }
 #name{
     position: absolute;
-   top:200px;
-    bottom: 2px;
+   top:300px;
+    bottom: 70px;
     left: 40px;
     font-size: 45px;
-    color: whitesmoke;
+    color: rgb(24, 62, 202);
     font-family:comic sans MS;
     padding-inline: 10px;
     font-kerning: normal;
 }
 #myimg{
-    border-image: round;
-    border-style: solid;
+    
+   
     border-image-width: inherit;
     border-width: thick;
-    border-radius: 30px;
-    border-color: rgb(55, 236, 236);
+    border-radius: 10px;
+    
     position: absolute;
-    right: 10px;
-    width: 250px;
-    height: 200px;
+    right: 60px;
+    width: 450px;
+    height: 450px;
     bottom: 20px;
 }
-
+main p{
+    width: 800px;
+    color: rgb(26, 29, 218);
+    font-size: large;
+}
 .uprintro{
-    background-color: rgb(11, 31, 160);
-    color: aquamarine;
+    background-color: rgb(176, 180, 195);
+    border-radius: 40px;
+    color: rgb(129, 136, 219);
     font-family: cosmic sans MS;
     font-style: oblique;
     padding: 10px;
-    padding-left: 20px;    
+    padding-left: 20px; 
+    box-sizing: content-box;   
+    
 }
 #intro{
     font-variant: initial;
     font-display:fallback;
     font-feature-settings: "c2pc";
     font-variant-ligatures: contextual;
+    width: auto;
+    font-size: large;
+    font-weight: bold;
 
 }
-.Java{
-    padding: 10px;
+.parent{
+    position: relative;
+    text-align: center;
+}
+.child
+{
+    color: rgb(201, 37, 15);
+    position: absolute;
+    top: 10px;
+    left: 30%;
+  align-items: center;
+    vertical-align: middle;
+   font-size: x-large;
+   font-weight: 800;
+   width: 500px; 
+   background-repeat: no-repeat;  
+   background-size: contain;
+   background-blend-mode:screen;
+
+}
+#Java{
+    padding: 30px;
     width:full-extent;
     height:150px;
-    background-color: aquamarine;
+    background-color: rgb(19, 20, 20);
     position: relative;
+box-sizing: content-box;
 
+height: 300px;
+background-image: url(java_c.png);
+border-radius: 50px;
+margin: 20px;
+background-size: 580px 380px;
 }
-.Java #Javaimg{
-padding: 5px;
-    right: 10px;
-    position:absolute;
-    
-    width: 250px;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: black;
+#Java p{
+    color: rgb(179, 165, 19);
+    width: 500px;
+    height: 200px;
 }
 
-.Eclipse{
-    padding: 10px;
+
+#Eclipse{
+    padding: 30px;
     width:full-extent;
-    background-color: antiquewhite;
-    position: relative;
     height:150px;
+    background-color: rgb(19, 20, 20);
+    position: relative;
+box-sizing: content-box;
+
+height: 300px;
+background-image: url(eclipse.png);
+border-radius: 50px;
+margin: 20px;
+background-size: cover;
 }
-.Eclipse #eclipse{
-    padding: 5px;
-    position:absolute;
-    right: 5px;
-    width: 250px;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: black;
-}
-.Cpp{
-    padding: 10px;
-    background-color: rgb(9, 20, 174);
+#Eclipse p{
+    width: 500px;
+    height: 200px;
     color: black;
-    font-size: 30px;
-    font-style: italic;
-    font-kerning: normal;
-    position: relative;
-    height: 150px;
+}
+#Cpp{
+    padding: 30px;
     width:full-extent;
-}
-#cpp{ padding: 5px;
-    position:absolute;
-    right: 5px;
-    width: 250px;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: black;
-}
-.C{
+    height:150px;
+    background-color: rgb(19, 20, 20);
     position: relative;
-    width: full-extent;
-    background-color: chocolate;
-    height: 150px;
-    padding-top: opx;
-}
-#C{
+box-sizing: content-box;
 
-    padding: 5px;
-    position:absolute;
-    right: 5px;
-    width: 250px;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: black;
-
+height: 300px;
+background-image: url(C++.jpg);
+border-radius: 50px;
+margin: 20px;
+background-size: cover;
 }
-.C p{
-    padding-top: 0px;
-    margin-top: 0px;
-}
-.projects{
-    margin-top: 0px;
-    background-color: rgb(7, 27, 128);
-    font-style: oblique;
-    font-stretch: semi-expanded;
-    font-size:large ;
-    width: full-extent;
+#Cpp p{
+    width: 500px;
     height: 200px;
-    position: relative;
-}
-.projects p{
-    margin-top: inherit;
-    position: relative;
-    margin-bottom: 0%;
-}
-#projectimg{
-    position: absolute;
-    right: 5px;
-    width: 250px;
-    border-style: solid;
-    border-color: black;
-    padding: 5px;
-    border-radius: 20px;
-    bottom: 5px;
+    color: black;
 }
 
-.contact{
-    padding-top: 0%;
+#projects{
+    padding: 10px;
+    width:full-extent;
+    height:150px;
+    background-color: rgb(19, 20, 20);
     position: relative;
-    background-color: rgb(5, 23, 37);
-    width: full-extent;
+box-sizing: content-box;
+width: 550px;
+height: 300px;
+background-image: url(newmain.jpg);
+border-radius: 50px;
+background-size: contain;
+padding-bottom: 30px;
+margin-bottom: 30px;
+
+}
+#projects p{
+    width: 500px;
     height: 200px;
-    margin: 0px;
+    color:rgb(10, 11, 11);
 }
-#contactimg{
-    position: absolute;
-    left: 30px;
-    bottom: 10px;
-    width: 50px;
-    border-color: aqua;
 
-}
+
+
 main{
     padding-bottom: 0%;
     margin-bottom: 0%;
@@ -190,4 +196,27 @@ body{
     font-weight: 400;
     font-family: comic sans MS;
     font-stretch: expanded;
+}
+.contact{
+    position: relative;
+    text-align: center;
+    width:auto;
+    height: 50px;
+    vertical-align: middle;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+
+}
+ a:hover{
+    color: rgb(45, 222, 163);
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+.side{
+    position: absolute;
+    left: 10px;
+    color: rgb(93, 93, 196);
+    font-size: 80px;
 }

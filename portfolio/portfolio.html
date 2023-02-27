@@ -10,6 +10,7 @@
     <link rel="stylesheet"   href="portfolio_CSS.css">
 </head>
 <body>
+    <div id="container">
     <header>
     <div class="profile">
         <p id="welcome">Hello There !</p>
@@ -23,49 +24,43 @@
      <div class="uprintro"><p id="intro">I'm a 3<sup>rd</sup> year student pursuing my degree in computer engineering from Institute of engineering and technology ,DAVV,Indore. from the very first I was always fascinated to Websites and their workings and hence today I'm hustling to be a full stack developer.As other web developers my portfolio is my visiting card <b id="smily">;) </b>.</p></div>
      </section>
      <section >
-        <div class="Java">
-            <aside>
-                <img src="background_image.jpg"  alt="image not found" id="Javaimg">
-            </aside>
+        <div class="parent">
+
+            <div class="side">Skills</div>
+        <div id="Java" class="child">
+            
             <p>
                Java is my main language.I'm a certified java developer.I have learned core as well as some advanced java technologies. 
             </p>
         </div>
-        <div class="Eclipse">
-            <aside>
-                <img src="background_image.jpg" alt="image not found" id="eclipse" >
-
-            </aside>
+        <div id="Eclipse" class="child">
+            
             <p >
              Eclipse is considered as the best ide for java and web project developments.
             </p>
         </div>
-     <div class="Cpp">
-        <aside><img src="background_image.jpg" alt="image not found" id="cpp" ></aside>
-        <p>I have learned C++ as it is considered to be the ideal language for a beginner.
+        </div>
+     <div id="Cpp" class="child">
+          <p>I have learned C++ as it is considered to be the ideal language for a beginner.
         </p>
 
      </div>
-     <div class="C">
-        
-         <img src="background_image.jpg" alt="image not found" id="C" >
-        
-        <p>I have learned basic C.</p>
-     </div>
+     
      </section>
-
-     <div class="projects"> 
+     <div class="side" >Project</div>
+     <div id="projects" class="child">
+        
         <p>I made a pharmacy store using servlets and jsp as my minor projects using Eclipse IDE.</p>
-        <img src="background_image.jpg" alt="image not found" id="projectimg" >
+        
      </div>
      
      </main>
      <footer>
-     <div class="contact">  
-        <p>
-            <a href="#"><img src="background_image.jpg" id="contactimg"></a>
-        </p> </div>  
-      </footer>
-
+        <div class="contact">
+            <em class="contact" id="li"><a href="#">connect with me</a></em>
+            
+        </div>
+     </footer>
+     
     </body>
 </html>
